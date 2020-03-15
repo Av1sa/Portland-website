@@ -1,0 +1,14 @@
+.video__image {
+    width: 100%;
+    min-height: 192px;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+}
+
+@media (min-width: 375px) {
+    .video__image {
+        min-height: 200px;
+    }
+}
+

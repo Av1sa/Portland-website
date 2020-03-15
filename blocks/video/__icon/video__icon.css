@@ -1,0 +1,11 @@
+.video__icon {
+    width: 41px;
+    height: 41px;
+    padding: 16px 16px 0 16px;
+}
+
+@media (min-width: 375px) {
+    .video__icon {
+        padding: 24px 24px 0 24px;
+    }
+}

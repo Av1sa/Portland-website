@@ -1,0 +1,10 @@
+.video__container {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.video__container:hover .video__image {
+    opacity: 40%;
+    transition: opacity 0.5s ease;
+}
