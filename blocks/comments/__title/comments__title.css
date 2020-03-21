@@ -19,6 +19,7 @@
     .comments__title {
         font-size: 72px;
         line-height: 78px;
-        margin: 0 0 58px 0;
+        margin: 0 auto 58px;
+        max-width: 800px;
     }
 }

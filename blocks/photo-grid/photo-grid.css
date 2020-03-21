@@ -1,6 +1,7 @@
 @import url(./__image/photo-grid__image.css);
 
 .photo-grid {
+    list-style: none;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(12, 1fr);

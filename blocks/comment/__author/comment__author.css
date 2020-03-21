@@ -11,5 +11,7 @@
 @media (min-width: 1024px) {
     .comment__author {
         text-align: start;
+        order: 1;
+        margin: 24px 0 0 0;
     }
 }

@@ -1,7 +1,6 @@
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__title/cover__title.css);
-@import url(./__image/cover__image.css);
-@import url(./__text-container/cover__text-container.css);
+@import url(./__background/cover__background.css);
 
 .cover {
     padding: 0;
@@ -9,11 +8,37 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: calc(1184px + 96px);
+    max-width: 1184px;
     margin: 0 auto;
+    min-height: 216px;
+    background: url(../../images/route-66.jpg) center center/cover;
 }
 
-.cover:hover .cover__image {
+.cover:hover {
     opacity: 40%;
     transition: opacity 0.5s ease;
+}
+
+@media (min-width: 375px) {
+    .cover {
+        min-height: 272px;
+    }
+}
+
+@media (min-width: 768px) {
+    .cover {
+        min-height: 500px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .cover {
+        min-height: 562px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .cover {
+        min-height: 594px;
+    }
 }

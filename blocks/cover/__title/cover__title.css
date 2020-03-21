@@ -8,11 +8,30 @@
     padding: 0 16px;
 }
 
+@media (min-width: 375px) {
+    .cover__title {
+        margin: 104px 0 44px 0;
+    }
+}
+
 @media (min-width: 768px) {
     .cover__title {
         font-size: 72px;
         line-height: 78px;
         margin: 164px 0 127px 0;
         padding: 0 24px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .cover__title {
+        margin: 227px 0 171px 0;
+        padding: 0 48px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .cover__title {
+        margin: 274px 0 134px 0;
     }
 }

@@ -13,3 +13,9 @@
         margin: 0 0 25px 0;
     }
 }
+
+@media (min-width: 1024px) {
+    .intro__text-main {
+        max-width: 682px;
+    }
+}

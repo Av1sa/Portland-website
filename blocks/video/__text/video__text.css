@@ -1,9 +1,18 @@
 .video__text {
     padding: 0 16px 16px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 @media (min-width: 375px) {
     .video__text {
         padding: 0 24px 24px 24px;
+    }
+}
+
+@media (min-width: 375px) {
+    .video__text {
+        padding: 0 30px 30px 30px;
     }
 }

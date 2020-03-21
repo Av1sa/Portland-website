@@ -4,20 +4,17 @@
     font-size: 40px;
     line-height: 44px;
     text-align: center;
-    margin: 0 16px 8px 16px;
+    margin: 0 auto 8px;
     padding: 0;
+    max-width: 288px;
 }
 
 @media (min-width: 768px) {
     .lead__title {
         font-size: 96px;
         line-height: 93px;
-        margin: 0 24px 48px 24px;
+        margin: 0 auto 48px;
+        max-width: 720px;
     }
 }
 
-@media (min-width: 1024px) {
-    .lead__title {
-        margin: 0 48px 48px 48px;
-    }
-}

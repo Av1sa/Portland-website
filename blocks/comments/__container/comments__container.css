@@ -3,6 +3,9 @@
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, auto);
     grid-gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 @media (min-width: 768px) {
@@ -15,5 +18,6 @@
     .comments__container {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1fr;
+        grid-gap: 19px;
     }
 }

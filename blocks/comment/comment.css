@@ -8,21 +8,15 @@
     align-items: center;
     margin: 0 auto 47px auto;
     padding: 0;
+    max-width: 382px;
 }
 
 .comment:last-child {
     margin: 0 auto;
 }
 
-@media (min-width: 768px) {
-    .comment {
-        max-width: 382px;
-    }
-}
-
 @media (min-width: 1024px) {
     .comment {
-        max-width: 100%;
         align-items: flex-start;
         margin: 0;
     }
