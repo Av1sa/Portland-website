@@ -1,0 +1,14 @@
+.section-subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .section-subtitle {
+        font-size: 24px;
+        line-height: 35px;
+    }
+}
